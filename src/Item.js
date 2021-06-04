@@ -6,7 +6,7 @@ export default function Item( {item, toggleItem}) {
     }
     return (
         <div>
-            <label>
+            <label class>
                 <input type ="checkbox" checked = {item.complete} onChange={handleItemClick} />
                 {item.name}
 
