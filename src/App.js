@@ -45,11 +45,12 @@ function App() {
 
   return (
     <>
-      <ItemList itemsList={items} toggleItem = {toggleItem} />
-      <input ref={itemNameRef} type="text" />
+      <h1>Grocery Shopping List</h1>
+      <div class="count"> {items.filter(item => !(item.complete)).length} left to buy</div>
+      <ItemList itemsList={items} toggleItem = {toggleItem}/>
+      <input ref={itemNameRef} type="text" class = "Textbox" />
       <button onClick={handleAddItem}> + Add Item</button>
       <button onClick={handleClearBoughtItems}>Clear Bought Items </button>
-      <div> {items.filter(item => !(item.complete)).length} left to buy</div>
     </>
     
   )

@@ -1,0 +1,55 @@
+* {
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+	align-items: center;
+}
+
+body {
+    background-image: linear-gradient(120deg, #e2c35d, #d88771);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Textbox{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    color: #111;
+    font-size: 15px;
+    box-shadow: 3px 1px 0px 2px, 0px -1px 0px 2px rgba(0, 0, 0, 0.62);
+    height: 30px;    
+    transform: skew(1deg, 0.5deg);
+    letter-spacing: 1px;
+}
+  
+
+button {
+	padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid black;
+    color: #111;
+    font-size: 15px;
+    box-shadow: 3px 1px 0px 2px, 0px -1px 0px 2px rgba(0, 0, 0, 0.62);
+}
+
+button:hover {
+	padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid black;
+    color: #111;
+    font-size: 20px;
+}
+
+.Textbox {
+    display: block;
+}
