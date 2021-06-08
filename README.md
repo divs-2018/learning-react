@@ -2,7 +2,7 @@
 
 This is a simple grocery shopping list react app to learn react.
 
-# Create React App
+# React App
 ## Available Scripts
 
 In the project directory, you can run:
